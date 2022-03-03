@@ -1,0 +1,148 @@
+ *{
+    padding: 0;
+    margin: 0;
+    
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display:block ;
+}
+a{
+    text-decoration: none;
+}
+img{max-width: 100%;}
+.heder{ max-width: 1300px;
+    padding: 20px;
+    background-color: rgb(8, 226, 208);
+color: white;}
+.heder .fixt{
+    
+  margin: auto;
+}
+.lfwf{
+    max-width: 30%;
+}
+.heder .fixt a { 
+    text-decoration:none ;
+    float: left;
+    color: white;
+    display: inline-block;
+}
+.menu{
+    max-width: 70%;
+    float: right;
+}
+.menu ul{ line-height: 35px;
+
+}
+.menu ul li{ padding-left: 10px;
+    float: left;
+    list-style: none;
+}
+
+
+.menu ul li a{ text-decoration: none;
+    
+}    
+.section2 .bacgrount{
+    background-image:url( https://i.ibb.co/wKtCcqY/header-bg01.jpg) ;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 200px;
+    display:block;
+
+}
+/* section2 */
+.section2 h2{
+    font-size: 60px;
+    font-family: Open Sans;
+}
+.section2 p{
+    padding-bottom: 30px;
+}
+.bacgrount a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 50px;
+    
+}
+/* section3 */
+.section03{ 
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    padding: 90px 0;
+
+    
+}
+
+.boxx{float: left;
+    width: 25%;
+    padding: 30px;
+}
+.box-menu h4{
+  font:bolder;
+}
+span{ font-size: 30px;
+    color: rgb(14, 182, 145);
+}
+.abouts{
+    border-top: 2px solid rgb(8, 226, 208);
+    padding: 60px 0;
+    text-align: center;
+    max-width: 1300px;
+}
+.abouts01 .img{ 
+    max-width: 40%;
+    float: left;
+    padding-top: 30px;
+    margin-left: 10px;
+}
+.about1{text-align: left;
+   max-width: 100%;
+    padding: 10px 0;
+}
+
+.abouts01 .abouts001{
+    float: right;
+    max-width: 55%;
+}
+.contact{
+    max-width: 1300px;
+    text-align: center;
+    background: rgb(218, 200, 200);
+    padding: 50px 0;
+   
+}
+.location01{ 
+    padding-top: 30px;
+    max-width: 1300px;
+    margin: auto;
+}
+.location {
+	max-width: 33%;
+    margin: auto;
+	float: left;
+    padding: 0 90px;
+}
+
+.footer{
+    text-align: center;
+    background-color: rgb(8, 226, 208);
+}
+.footer span{ color: white;
+    padding: 0 10px;
+}
+.foter02{text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}

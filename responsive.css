@@ -1,0 +1,67 @@
+@media (max-width:1120px ) {
+    .boxx {
+    
+        width: 50%;
+    
+    }
+
+    
+}
+@media (max-width:973px){
+    .section2 h2 {
+        font-size: 50px;
+       
+    }
+    .abouts01 .img {
+        max-width: 100%;
+    
+      
+
+    }
+    .img img{
+        max-width: 100%;
+    }
+    .abouts01 .abouts001 {
+    
+        max-width: 100%;
+    }
+}
+@media (max-width:877px) {
+    .section2 h2{
+        font-size: 40px;
+     
+    }
+    .section2 .bacgrount{
+        
+        padding: 50px;
+        
+    
+    }
+    .boxx {
+    
+        width: 100%;
+    
+    }
+    .bacgrount a {
+      
+        padding: 5px 8px;
+   
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    .location {
+        max-width: 100%;
+       margin-bottom: 20px;
+    }
+
+}
+@media (max-width:500px){
+    .section2 h2{
+        font-size: 30px;}
+    .section2 .bacgrount{
+        
+            padding: 10px;
+            
+        
+        }
+}
